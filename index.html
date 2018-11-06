@@ -8,6 +8,7 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/css?family=Courgette|Noto+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <link rel="stylesheet" href="style.css">
 
@@ -16,6 +17,7 @@
 
 
   <body>
+  <div class="desktop hide-on-small-only">
 
     <div class="hero-page">
       <div class="layer"></div>
@@ -99,7 +101,53 @@
 
     <div class="footer"></div>
 
+  </div>
 
+  <div class="mobile hide-on-med-and-up">
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo">Robert James Music</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+          </ul>
+        </div>
+      </nav>
+
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="sass.html">Songwriting</a></li>
+        <li><a href="badges.html">Improvisation</a></li>
+        <li><a href="collapsible.html">Production</a></li>
+        <li><a href="mobile.html">Composition</a></li>
+      </ul>
+
+    <div class="row">
+      <div class="mobile-hero-page">
+        <div class="col s12">
+          <div class="mobile-header">
+              <br>
+            <h5>Premier Guitar Coaching <br> & Artist Development</h5>
+              <br>
+            <h6>Thrill Your Inner Fan</h6>
+            <h6>Est. 1989</h6>
+              <br>
+          </div>
+
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span class="card-title">Card Title</span>
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+              <a href="#">This is a link</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
