@@ -7,8 +7,9 @@ body{
 .hero-page, .footer{
   width: 100vw;
   height: 100vh;
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   background: url("images/diego-sulivan-182118-unsplash.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -17,10 +18,35 @@ body{
   color: white;
 }
 
+.layer{
+  background: rgba(0, 0, 0, 0.1);
+  grid-column: 1 / 4;
+  grid-row: 1 / 4;
+}
+
+.main-header{
+  width: 50vw;
+  height: 50vh;
+  margin-top: .5%;
+  margin-left: 1%;
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+}
+
+.main-tag-line{
+  margin-left: 1%;
+}
+
+.sub-header{
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+}
+
 .chevron{
-  max-height: 50px;
-  align-self: flex-end;
-  margin-bottom: 5%;
+  grid-column: 2 / 3;
+  grid-row:  3 / 4;
+  margin-top: 5%;
+  margin: auto;
 }
 
 .chevron-down {
@@ -35,18 +61,6 @@ body{
     100% { transform: translate3d(0, 25px, 0); }
   }
 
-.main-header{
-  width: 50vw;
-  height: 50vh;
-  margin-left: 1%;
-
-}
-
-.sub-header{
-  align-self: flex-end;
-  float: left;
-  margin-left: 13%;
-}
 
 .text-field-1, .text-field-3{
   width: 50vw;
