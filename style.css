@@ -1,0 +1,168 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.hero-page, .footer{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  background: url("images/diego-sulivan-182118-unsplash.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+
+.chevron{
+  max-height: 50px;
+  align-self: flex-end;
+  margin-bottom: 5%;
+}
+
+.chevron-down {
+  fill: #FFF;
+  margin: auto;
+  width: 2.5em;
+  height: 2.5em;
+  animation: hover-me .5s infinite ease-in-out alternate;
+}
+
+  @keyframes hover-me {
+    100% { transform: translate3d(0, 25px, 0); }
+  }
+
+.main-header{
+  width: 50vw;
+  height: 50vh;
+  margin-left: 1%;
+
+}
+
+.sub-header{
+  align-self: flex-end;
+  float: left;
+  margin-left: 13%;
+}
+
+.text-field-1, .text-field-3{
+  width: 50vw;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #8B3B74 60%, #3E1432 100%);
+  color: white;
+  padding: 2%;
+  border-radius: 15px;
+}
+
+.text-field-2, .text-field-4{
+  width: 50vw;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to left, #8B3B74 40%, #3E1432 100%);
+  color: white;
+  padding: 2%;
+  border-radius: 15px;
+}
+
+.image-field-1{
+    width: 50vw;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("images/ahmed-rizkhaan-428098-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.image-field-2{
+    width: 50vw;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("images/marcus-neto-96651-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.image-field-3{
+    width: 50vw;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("images/filip-barna-591939-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.image-field-4{
+    width: 50vw;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("images/marius-masalar-410695-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.float-right{
+  float: right;
+}
+
+.float-left{
+  float: left;
+}
+
+.footer{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.card, .card-tabs > a{
+  width: 100vw;
+  text-align: center;
+  color: #7F9866;
+}
+
+h1{
+  font-family: 'Courgette', cursive;
+  font-size: 72px;
+}
+
+h2{
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h3{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 48px;
+}
+
+h4{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 36px;
+}
+
+h5{
+  font-family: 'Courgette', cursive;
+  font-size: 28px;
+}
