@@ -23,7 +23,7 @@ body{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  background: url("images/hector-bermudez-291156-unsplash.jpg") no-repeat center center fixed;
+  background: url("images/hector-bermudez-291156-unsplash.jpeg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -105,7 +105,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("images/4k-wallpaper-adult-black-and-white-1489126.jpg");
+    background-image: url("images/4k-wallpaper-adult-black-and-white-1489126.jpeg");
     background-position: center;
     background-size: cover;
     border-radius: 15px;
@@ -117,7 +117,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("images/john-hult-93012-unsplash.jpg");
+    background-image: url("images/john-hult-93012-unsplash.jpeg");
     background-position: center;
     background-size: cover;
     border-radius: 15px;
@@ -129,7 +129,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("images/artist-concert-electric-guitar-1306835.jpg");
+    background-image: url("images/artist-concert-electric-guitar-1306835.jpeg");
     background-position: center;
     background-size: cover;
     border-radius: 15px;
@@ -141,7 +141,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("images/beard-blur-boy-167382.jpg");
+    background-image: url("images/beard-blur-boy-167382.jpeg");
     background-position: center;
     background-size: cover;
     border-radius: 15px;
@@ -212,7 +212,7 @@ a.brand-logo{
 .mobile-hero-page::before{
     content: '';
     display: block;
-    background-image: url('images/tom-rogerson-574325-unsplash.jpg');
+    background-image: url('images/tom-rogerson-574325-unsplash.jpeg');
     background-position: center;
     background-size: cover;
     height: 100vh;
