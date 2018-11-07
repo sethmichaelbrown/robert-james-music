@@ -256,3 +256,59 @@ a.brand-logo{
   width: 10vw;
   color: white;
 }
+
+@media only screen and (max-width: 600px) {
+  .hero-page{
+    display: grid;
+  }
+
+  .main-header{
+    width: 100vw;
+    height: 25vh;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .chevron{
+    height: 1vh;
+    width: 1vw;
+  }
+
+  .float-right, .float-left{
+    float: none;
+    width: 100vw;
+  }
+
+  h1{
+    font-family: 'Courgette', cursive;
+    font-size: 36px;
+  }
+
+  h2{
+    font-family: 'Noto Sans', sans-serif;
+  }
+
+  h3{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 24px;
+  }
+
+  h4{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+  }
+
+  h5{
+    font-family: 'Courgette', cursive;
+    font-size: 12px;
+  }
+
+  h6{
+    font-family: 'Courgette', cursive;
+    font-size: 12px;
+  }
+
+}

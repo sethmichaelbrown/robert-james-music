@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/css?family=Courgette|Noto+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
   <link rel="stylesheet" href="style.css">
   <!--[if lt IE 9]>
   <script src="[PATH]/html5shiv.js"></script>
@@ -23,7 +23,7 @@
 <body>
 
 
-  <div class="desktop hide-on-small-only">
+  <div class="desktop">
     <div class="hero-page">
 
 <!-- FAB/ SideNav -->
@@ -56,7 +56,6 @@
       </div>
 
 <!-- Hero Image/ Headers -->
-      <div class="layer"></div>
       <div class="main-header" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
         <h1>Robert James Music</h1>
 
@@ -76,7 +75,7 @@
       </div>
 
 <!-- Tag line -->
-      <div class="sub-header" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+      <div class="sub-header hide-on-small-only" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
         <h5>For Serious Guitarists Who Want To Thrill Their Inner Fan</h5>
       </div>
     </div>
@@ -104,10 +103,10 @@
       </div>
 
 
-      <div class="image-field-1 float-right" data-aos="-right"></div>
+      <div class="image-field-1 float-right hide-on-small-only" data-aos="-right"></div>
 
 
-      <div class="image-field-2 float-left" data-aos="-left"></div>
+      <div class="image-field-2 float-left hide-on-small-only" data-aos="-left"></div>
 
       <div class="text-field-2 float-left">
         <div class="content-header composition" id="composition">
@@ -136,10 +135,10 @@
       </div>
 
 
-      <div class="image-field-3 float-right" data-aos="-right"></div>
+      <div class="image-field-3 float-right hide-on-small-only" data-aos="-right"></div>
 
 
-      <div class="image-field-4 float-left" data-aos="-left"></div>
+      <div class="image-field-4 float-left hide-on-small-only" data-aos="-left"></div>
 
       <div class="text-field-4 float-left">
         <div class="content-header performance" id="performance">
@@ -164,103 +163,19 @@
 
     <div class="footer">
       <div class="form-set-field container">
-        <div class="row content card-panel z-depth-3 hide-on-small-only">
+        <div class="row content card-panel z-depth-3">
           <div class="header" id="contact-form">
             <h2>Get Started With Robb!</h2>
-
-            <div class="remove">
-              <form class="col l12">
-
-                <div class="row contact-input">
-                  <div class="input-field col l12 s12">
-                    <i class="material-icons prefix">account_circle</i>
-                    <input id="icon_prefix" type="text" class="first-name validate" required>
-                    <label for="icon_prefix">First Name</label>
-                  </div>
-
-                  <div class="input-field col l12 s12">
-                    <i class="material-icons prefix">email</i>
-                    <input id="icon_email" type="email" class="validate" required>
-                    <label for="icon_email">Email</label>
-                  </div>
-
-
-                  <!-- <div class="input-field col l6 s12">
-                <i class="material-icons prefix">mode_edit</i>
-                <textarea id="icon_prefix2" class="materialize-textarea" required></textarea>
-                <label for="icon_prefix2">Message</label>
-              </div> -->
-
-                  <br>
-                  <div class="submit-button col l6 s12">
-                    <a href="mailto:sethmichaelbrown@gmail.com" class="waves-effect waves-light btn-large green"><i class="material-icons right">send</i>Submit</a>
-
-                    <!-- <button href="mailto:sethmichaelbrown@gmail.com" class="btn-large waves-effect waves-light green" id="submit-button" type="submit" name="action">Submit
-                  <i class="material-icons right">send</i>
-                </button> -->
-                  </div>
-
-                </div>
-
+              <div class="submit-button col l6 s12 offset-l3">
+                <a href="mailto:RJBoswell7@gmail.com" class="waves-effect waves-light btn-large green"><i class="material-icons right">send</i>Contact</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
     </form>
   </div>
 
 
-
-
-
-
-  <div class="mobile hide-on-med-and-up">
-    <nav>
-      <div class="nav-wrapper">
-        <a href="#!" class="brand-logo">Robert James Music</a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-        </ul>
-      </div>
-    </nav>
-
-    <ul class="sidenav" id="mobile-demo">
-      <li><a href="sass.html">Improvisation</a></li>
-      <li><a href="badges.html">Composition</a></li>
-      <li><a href="collapsible.html">Songwriting</a></li>
-      <li><a href="mobile.html">Performance</a></li>
-    </ul>
-
-    <div class="row">
-      <div class="mobile-hero-page">
-        <div class="col s12 center">
-          <div class="mobile-header">
-            <br>
-            <h5>Premier Guitar Coaching <br> & Artist Development</h5>
-            <br>
-            <h6>Thrill Your Inner Fan</h6>
-            <h6>Est. 1989</h6>
-            <br>
-          </div>
-
-          <div class="card blue-grey darken-1">
-            <div class="card-content white-text">
-              <span class="card-title">Card Title</span>
-              <p>I am a very simple card. I am good at containing small bits of information.
-                I am convenient because I require little markup to use effectively.</p>
-            </div>
-            <div class="card-action">
-              <a href="#">This is a link</a>
-              <a href="#">This is a link</a>
-            </div>
-          </div>
-
-
-        </div>
-      </div>
-    </div>
-  </div>
 
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
