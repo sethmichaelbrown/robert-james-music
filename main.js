@@ -1,15 +1,48 @@
 document.addEventListener('DOMContentLoaded', function(event) {
   console.log("It's Alive!")
 
-    M.AutoInit();
+// Initialize Materialize Elements
+  M.AutoInit();
 
-   // var instance = M.Tabs.init(element);
+// FAB menu
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.fixed-action-btn');
+    var instances = M.FloatingActionButton.init(elems, options);
+  });
+
+//Submit Button Action
+    let submit = document.querySelector("#submit-button")
+    let name = document.querySelector(".first-name")
+    let form = document.querySelector("form")
+    let remove = document.querySelector(".remove")
+    let message = document.createElement("div")
+    let ok = document.createElement("a")
+
+    submit.addEventListener("click", function(event){
+        event.preventDefault()
+        remove.removeChild(form)
+
+        message.setAttribute("class", "message-form")
+        message.innerHTML = "Thank you for your inquiry! We will reach out soon."
+
+        ok.setAttribute("class", "waves-effect ok-button waves-light btn-large orange darken-1 blue-grey-text hoverable")
+        ok.innerHTML = "OK"
+
+        remove.appendChild(message)
+        // remove.appendChild(ok)
+
+        ok.addEventListener("click", function(event){
+          event.preventDefault()
+          remove.appendChild(message)
+          remove.appendChild(ok)
+        })
+
+        })
 
 
+// Animate on Scroll
   AOS.init();
 
-  // You can also pass an optional settings object
-  // below listed default settings
   AOS.init({
     // Global settings:
     disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function

@@ -1,142 +1,247 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+<head>
 
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Courgette|Noto+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
 
-    <title>Robert James Music</title>
-  </head>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Courgette|Noto+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="style.css">
+  <!--[if lt IE 9]>
+  <script src="[PATH]/html5shiv.js"></script>
+  <![endif]-->
+
+  <title>Robert James Music</title>
+</head>
 
 
-  <body>
+<body>
+
+
   <div class="desktop hide-on-small-only">
-
     <div class="hero-page">
+
+<!-- FAB/ SideNav -->
+      <ul id="slide-out" class="sidenav">
+        <li><div class="user-view">
+          <div class="background">
+          </div>
+          <a href="#user"><img class="circle" src="images/rob_bos_profile.jpeg"></a>
+          <a href="#name"><span class="white-text name">Robb Boswell</span></a>
+          <a href="#email"><span class="white-text email">RJBoswell7@gmail.com</span></a>
+        </div></li>
+        <li><a class="subheader">About</a></li>
+          <li><div class="divider"></div></li>
+            <li><a class="side-li waves-effect" href="#contact-form">Contact</a></li>
+            <li><a class="side-li waves-effect" href="about-robb.html">About Robb</a></li>
+            <li><a class="side-li waves-effect" href="#contact-form">  More Info</a></li>
+
+        <li><a class="subheader">Focus</a></li>
+          <li><div class="divider"></div></li>
+            <li><a class="side-li waves-effect" href="#improv">  Improvisation</a></li>
+            <li><a class="side-li waves-effect" href="#composition">  Composition</a></li>
+            <li><a class="side-li waves-effect" href="#songwriting">  Songwriting</a></li>
+            <li><a class="side-li waves-effect" href="#performance">  Performance</a></li>
+
+
+      </ul>
+
+      <div class="fixed-action-btn">
+        <a href="#" data-target="slide-out" class="btn-floating waves-effect btn-large black sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+
+<!-- Hero Image/ Headers -->
       <div class="layer"></div>
-      <div class="main-header"
-            data-aos="fade-up"
-            data-aos-easing="linear"
-            data-aos-duration="1500">
+      <div class="main-header" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
         <h1>Robert James Music</h1>
 
         <div class="main-tag-line">
           <h5>Premier Guitar Coaching & Artist Development</h5>
+          <h5>Est. 1989</h5>
         </div>
 
       </div>
 
 
+<!-- Chevron -->
+      <div class="chevron">
+        <svg viewBox="0 0 68 33" class="chevron-down">
+          <path d="M.58 3.414l27.432 27.433c2.715 2.715 7.167 2.787 9.964.164L67.356 3.46 64.62.54 35.24 28.093c-1.222 1.146-3.212 1.114-4.4-.075L3.408.586.579 3.414z"></path>
+        </svg>
+      </div>
 
-    <div class="chevron">
-      <svg viewBox="0 0 68 33" class="chevron-down">
-        <path d="M.58 3.414l27.432 27.433c2.715 2.715 7.167 2.787 9.964.164L67.356 3.46 64.62.54 35.24 28.093c-1.222 1.146-3.212 1.114-4.4-.075L3.408.586.579 3.414z"></path>
-      </svg>
-    </div>
-
-
-      <div class="sub-header"
-            data-aos="fade-down"
-            data-aos-easing="linear"
-            data-aos-duration="1500">
-        <h5>Thrill Your Inner Fan | Est. 1989</h5>
+<!-- Tag line -->
+      <div class="sub-header" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+        <h5>For Serious Guitarists Who Want To Thrill Their Inner Fan</h5>
       </div>
     </div>
 
-    <div class="text-field-1 float-left">
-      <div class="content-header songwriting">
-        <h3>Songwriting</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+<!-- Content Start -->
+    <div class="intro-content">
+      <div class="text-field-1 float-left">
+        <div class="content-header improv" id="improv">
+          <h3>Improvisation</h3>
+          <p>
+            My method is a hybrid of the most effective guitar theory, tools and teaching methods I have encountered and time tested with my students since 1989. All the lessons are laid out in a comprehensive plan so the student is always incorporating everything in a single lesson as it applies to:</p>
+            <ol>
+              <li>theory</li>
+              <li>memorizing note locations on the neck</li>
+              <li>single string technique which covers the neck horizontally, vertically and diagonally
+                chords</li>
+              <li>chord progressions for improvising over</li>
+            </ol>
+
+
+
+
+
+        </div>
+      </div>
+
+
+      <div class="image-field-1 float-right" data-aos="-right"></div>
+
+
+      <div class="image-field-2 float-left" data-aos="-left"></div>
+
+      <div class="text-field-2 float-left">
+        <div class="content-header composition" id="composition">
+          <h3>Composition</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
+
+      <div class="text-field-3 float-left">
+        <div class="content-header songwriting" id="songwriting">
+          <h3>Songwriting</h3>
+          <p>The songwriting program is for guitar players who:</p>
+            <ol>
+              <li>have the desire to compose songs on the guitar for either vocal accompaniment or instrumental purposes</li>
+              <li>are already creating parts and want to know how to extend them into complete songs</li>
+              <li>want to know how to enhance their original songs with embellishments that are unique to the guitar</li>
+            </ol>
+          <p>
+            If you can maintain a steady rhythm on the guitar and enjoy or desire to create your own music, this is for you!
+          </p>
+          </p>
+        </div>
+      </div>
+
+
+      <div class="image-field-3 float-right" data-aos="-right"></div>
+
+
+      <div class="image-field-4 float-left" data-aos="-left"></div>
+
+      <div class="text-field-4 float-left">
+        <div class="content-header performance" id="performance">
+          <h3>Performance</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
       </div>
     </div>
-
-
-    <div class="image-field-1 float-right" data-aos="-right"></div>
-
-
-    <div class="image-field-2 float-left" data-aos="-left"></div>
-
-    <div class="text-field-2 float-left">
-      <div class="content-header improv">
-        <h3>Improvisation</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-      </div>
-    </div>
-
-    <div class="text-field-3 float-left">
-      <div class="content-header production">
-        <h3>Production</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-      </div>
-    </div>
-
-
-    <div class="image-field-3 float-right" data-aos="-right"></div>
-
-
-    <div class="image-field-4 float-left" data-aos="-left"></div>
-
-    <div class="text-field-4 float-left">
-      <div class="content-header composition">
-        <h3>Composition</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-      </div>
-    </div>
-
-
-    <div class="footer"></div>
-
   </div>
 
-  <div class="mobile hide-on-med-and-up">
-      <nav>
-        <div class="nav-wrapper">
-          <a href="#!" class="brand-logo">Robert James Music</a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-          <ul class="right hide-on-med-and-down">
-          </ul>
-        </div>
-      </nav>
 
-      <ul class="sidenav" id="mobile-demo">
-        <li><a href="sass.html">Songwriting</a></li>
-        <li><a href="badges.html">Improvisation</a></li>
-        <li><a href="collapsible.html">Production</a></li>
-        <li><a href="mobile.html">Composition</a></li>
-      </ul>
+
+    <div class="footer">
+      <div class="form-set-field container">
+        <div class="row content card-panel z-depth-3 hide-on-small-only">
+          <div class="header" id="contact-form">
+            <h2>Get Started With Robb!</h2>
+
+            <div class="remove">
+              <form class="col l12">
+
+                <div class="row contact-input">
+                  <div class="input-field col l12 s12">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="icon_prefix" type="text" class="first-name validate" required>
+                    <label for="icon_prefix">First Name</label>
+                  </div>
+
+                  <div class="input-field col l12 s12">
+                    <i class="material-icons prefix">email</i>
+                    <input id="icon_email" type="email" class="validate" required>
+                    <label for="icon_email">Email</label>
+                  </div>
+
+
+                  <!-- <div class="input-field col l6 s12">
+                <i class="material-icons prefix">mode_edit</i>
+                <textarea id="icon_prefix2" class="materialize-textarea" required></textarea>
+                <label for="icon_prefix2">Message</label>
+              </div> -->
+
+                  <br>
+                  <div class="submit-button col l6 s12">
+                    <a href="mailto:sethmichaelbrown@gmail.com" class="waves-effect waves-light btn-large green"><i class="material-icons right">send</i>Submit</a>
+
+                    <!-- <button href="mailto:sethmichaelbrown@gmail.com" class="btn-large waves-effect waves-light green" id="submit-button" type="submit" name="action">Submit
+                  <i class="material-icons right">send</i>
+                </button> -->
+                  </div>
+
+                </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </form>
+  </div>
+
+
+
+
+
+
+  <div class="mobile hide-on-med-and-up">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo">Robert James Music</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+        </ul>
+      </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="sass.html">Improvisation</a></li>
+      <li><a href="badges.html">Composition</a></li>
+      <li><a href="collapsible.html">Songwriting</a></li>
+      <li><a href="mobile.html">Performance</a></li>
+    </ul>
 
     <div class="row">
       <div class="mobile-hero-page">
-        <div class="col s12">
+        <div class="col s12 center">
           <div class="mobile-header">
-              <br>
+            <br>
             <h5>Premier Guitar Coaching <br> & Artist Development</h5>
-              <br>
+            <br>
             <h6>Thrill Your Inner Fan</h6>
             <h6>Est. 1989</h6>
-              <br>
+            <br>
           </div>
 
           <div class="card blue-grey darken-1">
             <div class="card-content white-text">
               <span class="card-title">Card Title</span>
               <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+                I am convenient because I require little markup to use effectively.</p>
             </div>
             <div class="card-action">
               <a href="#">This is a link</a>
@@ -144,18 +249,19 @@
             </div>
           </div>
 
+
         </div>
       </div>
     </div>
   </div>
 
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script type="text/javascript" src="main.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-  </body>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
 
 </html>
