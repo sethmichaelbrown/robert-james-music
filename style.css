@@ -5,16 +5,16 @@ body {
 }
 
 .fab-button {
-  background-color: #3E1432;
+  background-color: #7E9DA4;
 }
 
 .fab-button:hover {
   background-color: white;
-  color: #3E1432;
+  color: #7E9DA4;
 }
 
 .background {
-  background: linear-gradient(to right, #3E1432 40%, #8B3B74 100%);
+  background-color: #7E9DA4;
 }
 
 .subheader {
@@ -91,7 +91,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to right, #3E1432 40%, #8B3B74 100%);
+  background-color: #7E9DA4;
   color: white;
   padding: 2%;
   border-radius: 15px;
@@ -103,7 +103,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to left, #3E1432 40%, #8B3B74 100%);
+  background-color: #3A5257;
   color: white;
   padding: 2%;
   border-radius: 15px;
@@ -176,7 +176,7 @@ body {
 }
 
 .card-panel{
-  background-color: #3E1432;
+  background-color: #7E9DA4;
   color: white;
 }
 
@@ -186,7 +186,7 @@ body {
 }
 
 .contact-button:hover{
-  background-color: #331029;
+  background-color: #3E1432;
   color: white;
 }
 
@@ -351,8 +351,7 @@ h6 {
   }
 
   .user-view {
-    background: none;
-    background-color: rgba(114, 24, 37);
+    background-color: #7E9DA4;
   }
 
   h1 {
