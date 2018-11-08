@@ -1,0 +1,35 @@
+body{
+  background-color: white;
+}
+
+.card-content{
+  text-align: center;
+}
+
+.about-header{
+  margin-top: 2%;
+}
+
+.about-header-text{
+  margin-top: 2%;
+}
+
+.about-header-image{
+ margin-top: 2%;
+}
+
+.prof-image{
+  border-radius: 10px;
+}
+
+.card-panel{
+  background-color: #7E9DA4;
+}
+
+.user-view{
+  background-color: #7E9DA4;
+}
+
+.footer{
+  background: none;
+}
